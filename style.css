@@ -1,0 +1,80 @@
+body {
+    background-color: #0f0f0f;
+    color: #0ff;
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.container, .dashboard {
+    padding: 20px;
+}
+
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    text-align: center;
+    background: #111;
+    padding: 30px;
+    border: 1px solid #0ff;
+    box-shadow: 0 0 10px #0ff;
+}
+
+input, select {
+    background: #222;
+    color: #0ff;
+    border: 1px solid #0ff;
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+}
+
+button, .btn {
+    background: #0ff;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+a {
+    color: #0f0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.error {
+    color: #f00;
+}
+
+.success {
+    color: #0f0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #0ff;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #111;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #0ff;
+    padding-bottom: 10px;
+}

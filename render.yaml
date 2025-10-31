@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: koperasi-app
+    env: docker
+    dockerfilePath: Dockerfile
+    buildCommand: echo "Nothing to build"
+    startCommand: "apache2-foreground"
+    envVars:
+      - key: MYSQL_HOST
+        value: sql305.infinityfree.com
+      - key: MYSQL_USER
+        value: if0_40304062
+      - key: MYSQL_PASS
+        value: borisbaker78
+      - key: MYSQL_DB
+        value: if0_40304062_dbujikoperasi
